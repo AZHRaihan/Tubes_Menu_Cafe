@@ -1,6 +1,32 @@
-# tubes_menu_cafe
+#  Café De.Vini – Flutter Menu App
 
-A new Flutter project.
+Aplikasi mobile untuk **memesan makanan & minuman** di *Café De.Vini*, dibuat menggunakan **Flutter**. Proyek ini dirancang sebagai sistem pemesanan digital sederhana yang dapat digunakan oleh pelanggan untuk memilih menu, menambahkan ke keranjang, melakukan pembayaran, dan mendapatkan struk pembelian.
+
+---
+
+##  Fitur Aplikasi
+
+-  **Login Pengguna**
+  - Pengguna mengisi nama, email, dan nomor HP (tanpa autentikasi nyata).
+  
+-  **Lihat Menu**
+  - Daftar makanan & minuman ditampilkan dari database **SQLite**.
+  - Gambar, nama, dan harga setiap item tersedia.
+
+-  **Keranjang**
+  - Tambah/hapus item dari keranjang.
+  - Hitung total harga belanja.
+  
+-  **Pembayaran & Struk**
+  - Saat membayar, pengguna mendapatkan struk digital.
+  - Data pembelian disimpan secara lokal di SQLite.
+
+-  **Riwayat Pembelian**
+  - Pengguna bisa melihat transaksi sebelumnya (fitur opsional).
+
+- 🛠 **Admin Tersembunyi**
+  - Akses khusus untuk mengelola menu (Create/Update/Delete item).
+  - Diakses hanya melalui PIN/admin route tersembunyi.
 
 ## Getting Started
 
