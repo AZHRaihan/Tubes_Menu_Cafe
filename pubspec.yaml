@@ -7,13 +7,18 @@ environment:
   sdk: ^3.8.0
 
 dependencies:
-  google_fonts: ^6.1.0
-  qr_flutter: ^4.1.0
   flutter:
     sdk: flutter
 
+  # UI & util
+  google_fonts: ^6.1.0
+  qr_flutter: ^4.1.0
   cupertino_icons: ^1.0.8
   provider: ^6.1.2
+
+  # ─── SQLlite ──────────────────────────────────────────────
+  sqflite: ^2.3.2 # database engine
+  path: ^1.9.0 # bantu bangun path file db
 
 dev_dependencies:
   flutter_test:
@@ -25,3 +30,4 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/logo.png
