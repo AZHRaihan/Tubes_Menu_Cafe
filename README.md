@@ -1,32 +1,40 @@
-#  Café De.Vini – Flutter Menu App
+# Café De.Vini – Flutter Menu App
 
-Aplikasi mobile untuk **memesan makanan & minuman** di *Café De.Vini*, dibuat menggunakan **Flutter**. Proyek ini dirancang sebagai sistem pemesanan digital sederhana yang dapat digunakan oleh pelanggan untuk memilih menu, menambahkan ke keranjang, melakukan pembayaran, dan mendapatkan struk pembelian.
+Aplikasi mobile untuk **memesan makanan & minuman** di _Café De.Vini_, dibuat menggunakan **Flutter**. Proyek ini dirancang sebagai sistem pemesanan digital sederhana yang dapat digunakan oleh pelanggan untuk memilih menu, menambahkan ke keranjang, melakukan pembayaran, dan mendapatkan struk pembelian.
 
 ---
 
-##  Fitur Aplikasi
+## Fitur Aplikasi
 
--  **Login Pengguna**
-  - Pengguna mengisi nama, email, dan nomor HP (tanpa autentikasi nyata).
-  
--  **Lihat Menu**
-  - Daftar makanan & minuman ditampilkan dari database **SQLite**.
-  - Gambar, nama, dan harga setiap item tersedia.
+- **Login Pengguna**
+- Pengguna mengisi nama, email, dan nomor HP (tanpa autentikasi nyata).
 
--  **Keranjang**
-  - Tambah/hapus item dari keranjang.
-  - Hitung total harga belanja.
-  
--  **Pembayaran & Struk**
-  - Saat membayar, pengguna mendapatkan struk digital.
-  - Data pembelian disimpan secara lokal di SQLite.
+- **Lihat Menu**
+- Daftar makanan & minuman ditampilkan dari database **SQLite**.
+- Gambar, nama, dan harga setiap item tersedia.
 
--  **Riwayat Pembelian**
-  - Pengguna bisa melihat transaksi sebelumnya (fitur opsional).
+- **Keranjang**
+- Tambah/hapus item dari keranjang.
+- Hitung total harga belanja.
+
+- **Pembayaran & Struk**
+- Saat membayar, pengguna mendapatkan struk digital.
+- Data pembelian disimpan secara lokal di SQLite.
+
+- **Riwayat Pembelian**
+- Pengguna bisa melihat transaksi sebelumnya (fitur opsional).
 
 - 🛠 **Admin Tersembunyi**
+
   - Akses khusus untuk mengelola menu (Create/Update/Delete item).
   - Diakses hanya melalui PIN/admin route tersembunyi.
+
+  ***
+
+  # Café De.Vini – Flutter Menu App
+
+Berikut Link Untuk UI/UX Flutter Menu App :
+https://www.figma.com/design/Rg8tpU5hVPCOlLC2aTly6C/Prak-PBM?node-id=0-1&t=Eg0SmuSoCZFyRIFQ-1
 
 ## Getting Started
 
